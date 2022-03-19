@@ -1,0 +1,84 @@
+- tag: writting
+  name: "Writting"
+  categories: 
+    - tag: tutorial
+      name: Tutorial Writing
+      text: Writing tutorials for technical purposes (SDK, Libraries, Sofware).
+      icon: technical.jpg
+      # link: 
+    - tag: reference
+      name: Reference Writing
+      text: Writing Documentation References for software.
+      icon: technical.jpg
+      # link: 
+    - tag: popularscience
+      name: Popular Science
+      text: Writing science articles for general audience.
+      icon: science.jpg
+      # link: 
+- tag: datavisualisation
+  name: "Data Visualisation"
+  categories:
+    - tag: leaflet
+      name: Leaflet
+      text: Displaying interactive maps on the web.
+      icon: leaflet.jpg
+      link: https://leafletjs.com/
+    - tag: chart.js
+      name: chart.js
+      text: Building interactive charts for the web.
+      icon: chartjs.jpg
+      link: https://www.chartjs.org/
+    - tag: tabulator
+      name: tabulator
+      text: Building interactive web table with custom design and filters.
+      icon: tabulator.jpg
+      link: http://tabulator.info/
+    - tag: qgis
+      name: QGIS
+      text: Using the open source Geographic Information software to manage geographic data.
+      icon: qgis.jpg
+      link: https://www.qgis.org/
+    - tag: osm
+      name: OpenStreetMap
+      text: Source of GIS data from a worldwild collaborative project.
+      icon: osm.jpg
+      link: https://www.openstreetmap.org/
+  # portfolio:
+  #   - carluxlaomap
+  # blog:
+  #   - building-an-interactive-map-vue-leaflet/
+  #   - mapping-data-with-qgis/
+- tag: webdevelompent
+  name: "Web Development"
+  categories: 
+    - tag: vue
+      name: Vue.js
+      text: Buildinf UI with this front-end javascript framework/
+      icon: vue.jpg
+      link: https://vuejs.org/
+    - tag: swagger
+      name: Swagger OpenAPI
+      text: Writing API specification using the standard of the industry.
+      icon: swagger.jpg
+      link: https://swagger.io/
+    - tag: jekyll
+      name: Jekyll
+      text: Using Jekyll static website generator to build documentation website and (this) portfolio!
+      icon: jekyll.jpg
+      link: https://jekyllrb.com/
+    - tag: wordpress
+      name: Wordpress
+      text: Building themes for the most famous Content Management System (CMS).
+      icon: jekyll.jpg
+      link: https://jekyllrb.com/
+    - tag: googleapi
+      name: Google API
+      text: Using Google API to access google services from 3rd party software.
+      icon: googlecloudplateform.jpg
+      link: https://developers.google.com/apis-explorer
+    - tag: github
+      name: github
+      text: Using Git and Github as a tracking change and collaboration systems. Administration of Github Repo (issues, CI/CL etc.)
+      icon: github.jpg
+      link: https://developers.google.com/apis-explorer

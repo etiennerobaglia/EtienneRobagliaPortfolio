@@ -1,0 +1,31 @@
+- tag: inti
+  title: Web Development Training
+  link: https://www.intiformation.com/
+  organisation: INTI Formation
+  location: Paris, France
+  date:
+    start_date: fev 2019
+    end_date: may 2019
+    ongoing: false
+  description: |-
+    3 months web development intensive training.
+  achievments:
+    - "Front-end: HTML, CSS, JavaScript JQuery, Bootstrap, Angular"
+    - "Back-end: relational database, SQL, webservice & REST APIs, Java web frameworks."
+    - "IT project managment, agile software development, UML, Design Patterns, Documentation."
+  icon: inti.jpg
+- tag: ebi
+  title: Ingeneering degree
+  link: https://www.ebi-edu.com/en/
+  organisation: School of Industrial Biology
+  location: Paris, France
+  date:
+    start_date: sep 2011
+    end_date: jul 2015
+    ongoing: false
+  description: |-
+    5 years enineering degree studing science and industrial sciences.
+  achievments:
+    - "Biology, chemistry, environmental studies, math, statistic"
+    - "Industrial science, industrial quality assurance, product design, project managment"
+  icon: ebi.jpg

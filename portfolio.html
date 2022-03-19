@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: /
+title: default
+---
+
+<main class="projects">
+  <h2 class="projects-title">
+    Projects
+  </h2>
+  {% for project in site.projects %}
+    <a 
+      class="project"
+      href="{% link {{project.path}} %}"
+    >
+      <div class="project-content">
+        <header class="project-header">
+          <h3 class="project-title">
+            {{project.title}}
+          </h3>
+          <div class="project-subtitle">
+            {{project.type | capitalize}} 
+            <span class="dot-separator">·</span> 
+            {{project.organisation}}
+          </div>
+        </header>
+        <div class="project-description">
+          {{project.description | markdownify}}
+        </div>
+      </div>
+      <img 
+        class="project-image"
+        src="/assets/images/{{project.image}}" 
+        alt="{{project.image}}"
+      >
+    </a>
+  {% endfor %}
+</main>

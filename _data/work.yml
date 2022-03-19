@@ -1,0 +1,91 @@
+- tag: pg4d
+  title: Developer Advocate - developer.groupe-psa.io
+  link: https://developer.groupe-psa.io/
+  organisation: Stellantis (ex Groupe PSA)
+  location: Paris & Remote (Vientiane, Laos)
+  date:
+    start_date: jul 2019
+    # end_date:
+    ongoing: true
+  description: |-
+    [developer.groupe-psa.io](https://developer.groupe-psa.io), documentation of Stellantis (ex Groupe PSA's APIs) connected cars APIs. REST API, Mobile SDK, Embedded framework.
+  achievments:
+    - "Technical writting: tutorial and references."
+    - "Website design."
+    - "Web Developemnt: Jekyll, GitHub Pages, HTML, CSS, Bulma, JavaScript, Node"
+  icon: stellantis.jpg
+- tag: msl
+  title: Food Quality, Certification & Design
+  link: https://www.facebook.com/maiSavanhLaoColtd/
+  organisation: Maï Savanh Lao
+  location: Vientiane, Laos
+  date:
+    start_date: aug 2018
+    end_date: jan 2019
+    ongoing: false
+  description: |-
+    Fair Trade and Organic food manufacturer of Lao Products.
+  achievments: 
+    - Implement & Certify Good Manufacturing Practices for the food factory.
+    - Food and packaging design.
+  icon: msl.jpg
+- tag: lesglenans-edm
+  title: Writing & training on marine environment
+  link: https://www.glenans.asso.fr/
+  organisation: Les Glenans - Ecole de Mer
+  location: Concarneau - Les Glenans, France
+  date:
+    start_date: oct 2016
+    end_date: oct 2017
+    ongoing: false
+  description: |-
+    Les Glenans is a french sailing school teaching in the Natural Reserve of *Glenan's* islands in Brittany. The *school of sea program* is focusing on providing environmental knowledges to the staff and trainees.
+  achievments: 
+    - Writing and design educational material for marine environmental education.
+    - Training about marine environment on Glenan's islands.
+  icon: lesglenans.jpg
+- tag: leka
+  title: Industrial quality assurance internship
+  link: https://leka.io/en/
+  organisation: Leka
+  location: Paris, France - Kansas City, USA
+  date:
+    start_date: feb 2016
+    end_date: aug 2016
+    ongoing: false
+  description: |-
+    Leka makes an interactive toy for children with autism.
+  achievments: 
+    - Prototypes quality test
+    - Design & Ergonomics
+  icon: leka.jpg
+- tag: info-ebi
+  title: Office automation and Computer assistant teacher
+  link: https://www.ebi-edu.com/en/the-school-of-industrial-biology/
+  organisation: EBI - School of Industrial Biology
+  location: Cergy, France
+  date:
+    start_date: sep 2015
+    end_date: dec 2015
+    ongoing: false
+  description: |-
+    When I was finishing my master's degree in Industrial Biology at EBI, I had the opportunity to teach Office Automation as assitant to the full professor.
+  achievments: 
+    - Lesson & Pratical courses
+    - 3 classes of 45 students
+  icon: ebi.jpg
+- tag: info-ebi
+  title: Office automation and Computer assistant teacher
+  link: https://www.ebi-edu.com/en/the-school-of-industrial-biology/
+  organisation: EBI - School of Industrial Biology
+  location: Cergy, France
+  date:
+    start_date: sep 2015
+    end_date: dec 2015
+    ongoing: false
+  description: |-
+    When I was finishing my master's degree in Industrial Biology at EBI, I had the opportunity to teach Office Automation as assitant to the full professor.
+  achievments: 
+    - Lesson & Pratical courses
+    - 3 classes of 45 students
+  icon: ebi.jpg

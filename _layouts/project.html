@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<main class="project-page">
+  <header
+    class="project-header"
+  >
+    <h1 class="project-title">
+      {{page.title}}
+    </h1>
+    <div class="project-subtitle">
+      <span>{{page.type | capitalize}}</span>
+      <span class="dot-separator">·</span> 
+      <span>{{page.organisation}}</span>
+    </div>
+  </header>
+  
+  <div class="project-description">
+    {{page.description | markdownify}}
+  </div>
+
+  <img
+    class="project-main-image"
+    src="/assets/images/{{page.image}}"
+  />
+
+  <div class="project-achievments boxed ">
+    <h2 class="boxed-title">Achievments</h2>
+    <ul>  
+      {% for task in page.achievments %}
+      <li>
+        <strong>{{task.title}}:</strong>
+        <span>{{task.description}}</span>
+        <img src="/assets/images/{{task.image}}"
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="project-skills boxed ">
+    <h2 class="boxed-title">Skills</h2>
+    <ul>  
+      {% for skill in page.skills %}
+      <li>
+        {{skill}}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</a>
+</main>
