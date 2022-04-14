@@ -2,7 +2,7 @@
 tag: lesglenans-edm-book
 layout: project
 permalink: /project/lesglenans-edm-book/
-title: Marine Environment School
+title: Marine Environment Guide
 type: book
 link: https://www.glenans.asso.fr/ecole-de-mer
 organisation: Les Glenans

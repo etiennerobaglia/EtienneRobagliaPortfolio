@@ -35,6 +35,8 @@ main {
 .website-description {
   max-width: $max-width;
   margin: 0 auto 4rem;
+  line-height: 1.5;
+  font-size: 1.1rem;
 }
 
 // -------------------------
@@ -150,8 +152,8 @@ main {
     text-decoration: none;
     color: $text-color;
     border-radius: 3px;
-    max-height: 200px;
-    margin: 2rem 0;
+    max-height: 230px;
+    margin: 3.25rem 0;
     justify-content: space-between;
     height: 300px;
     border: 1px solid $dark-grey-blue;
@@ -192,14 +194,14 @@ main {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
   .projects {
     
     .project-description { 
       display: none
     }
     .project {
-      max-width: 70%;
+      max-width: 67.5%;
       margin-right: auto;
       margin-left: auto;
       display: block;
@@ -216,7 +218,7 @@ main {
     }
   }
   
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 650px) {
   .projects {
 
     .project {
