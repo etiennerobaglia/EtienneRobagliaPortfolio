@@ -8,12 +8,13 @@ link: https://developer.groupe-psa.io
 github: https://github.com/GroupePSA/groupepsa.github.io
 organisation: Stellantis (ex Groupe PSA)
 image: pg4d.jpg
+video: pg4d.m4v
 description: |-
-  Writting, design and development of tutorials & references for developer.groupe-psa.io. This website is the documentation plateforme for Groupe PSA connected cars APIs.
+  Writing, design and development of tutorials & references for developer.groupe-psa.io. This website is the documentation platform for Groupe PSA connected cars APIs.
 achievments:
   - tag: writing
-    title: Technical Writting
-    description: Writting tutorials & references as API documentaiton.
+    title: Technical Writing
+    description: Writing tutorials & references as API documentaiton.
     image: tutorial-pg4d.jpg
   - tag: webdesign
     title: Web Design 
@@ -24,7 +25,7 @@ achievments:
     description: Web integration and development of the documentation system.
     image: ref-list-pg4d.jpg
 skills:
-  - developement:
+  - development:
     - Jekyll
     - CSS and native JavaScript
     - Github

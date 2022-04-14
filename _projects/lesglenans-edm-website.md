@@ -4,6 +4,7 @@ layout: project
 permalink: /project/lesglenans-edm-website/
 title: Marine Environment School
 type: website
+video: lesglenans-edm-website.m4v
 # link: 
 organisation: Les Glenans
 image: lesglenans-edm-website-map.jpg
@@ -11,8 +12,8 @@ description: |-
   Creating a website for web visualisation of Les Glenans Marine Environment education material.
 achievments:
   - tag: webdevelopment
-    title: Web Developement
-    description: Developement of a Wordpress website with back office and Leaflet interactive map. 
+    title: Web Development
+    description: Development of a Wordpress website with back-office and Leaflet interactive map. 
     image: lesglenans-edm-website-article-1.jpg
   - tag: webdesign
     title: Web Design
