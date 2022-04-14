@@ -10,35 +10,65 @@ layout: default
       {{page.title}}
     </h1>
     <div class="project-subtitle">
-      <span>{{page.type | capitalize}}</span>
-      <span class="dot-separator">·</span> 
-      <span>{{page.organisation}}</span>
+      <div class="project-categories">
+        <span>{{page.type | capitalize}}</span>
+        <span class="dot-separator">·</span> 
+        <span>{{page.organisation}}</span>
+      </div>
+      <div class="project-links">
+        {% if page.link %}
+        <a href="{{page.link}}">{{page.link}}</a>
+        {% endif %}
+        {% if page.github and page.link %}
+        <span class="dot-separator">·</span>
+        {% endif %}
+        {% if page.github %}
+        <a href="{{page.github}}">GitHub</a>
+        {% endif %}
+      </div>
     </div>
   </header>
   
-  <div class="project-description">
-    {{page.description | markdownify}}
-  </div>
-
+  {% if page.video %}
+  <video autoplay muted loop class="project-main-image">
+    <source src="/assets/video/{{page.tag}}.m4v"
+    type="video/mp4">
+    <img
+      class="project-main-image"
+      src="/assets/images/{{page.image}}"
+    />
+  </video>
+  {% else %}
   <img
     class="project-main-image"
     src="/assets/images/{{page.image}}"
   />
+  {% endif %}
+  
+  <div class="project-description">
+    {{page.description | markdownify}}
+  </div>
+  
 
-  <div class="project-achievments boxed ">
-    <h2 class="boxed-title">Achievments</h2>
+  <div class="achievments boxed ">
+    <h2 class="boxed-title">Achievements</h2>
     <ul>  
-      {% for task in page.achievments %}
-      <li>
-        <strong>{{task.title}}:</strong>
-        <span>{{task.description}}</span>
-        <img src="/assets/images/{{task.image}}"
+      {% for achievments in page.achievments %}
+      <li class="achievment">
+        <strong>{{achievments.title}}:</strong>
+        <span>{{achievments.description}}</span>
+        <div class="achievment-image-container">
+          <img 
+            class="achievment-image"
+            src="/assets/images/{{achievments.image}}
+          ">
+        </div>
       </li>
       {% endfor %}
     </ul>
   </div>
 
-  <div class="project-skills boxed ">
+  {%- comment -%} <div class="project-skills boxed ">
     <h2 class="boxed-title">Skills</h2>
     <ul>  
       {% for skill in page.skills %}
@@ -47,6 +77,7 @@ layout: default
       </li>
       {% endfor %}
     </ul>
-  </div>
+  </div> {%- endcomment -%}
+  
 </a>
 </main>
