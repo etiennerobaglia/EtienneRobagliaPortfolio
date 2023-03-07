@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<main class="project-page">
+  <header
+    class="project-header"
+  >
+    <h1 class="project-title">
+      {{page.title}}
+    </h1>
+    <div class="project-subtitle">
+      <div class="project-categories">
+        <span>{{page.organisation}}</span>
+        {% if page.location %}
+        <span class="dot-separator">·</span> 
+        <span>
+          {{page.location}}
+        </span>
+        {% endif %}
+      </div>
+      <div class="project-links">
+        {% if page.link %}
+        <a href="{{page.link}}">{{page.link}}</a>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+  
+  <div class="project-description">
+    {{page.description | markdownify}}
+  </div>
+  
+  {% if page.achievments %}
+  <div class="achievments boxed ">
+    <h2 class="boxed-title">Achievements</h2>
+    <div>
+      {{page.achievments | markdownify}}
+    </div>
+  </div>
+  {% endif %}
+</main>

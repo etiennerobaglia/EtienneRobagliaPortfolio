@@ -34,12 +34,22 @@ environment: production
 # Build settings
 theme: minima
 plugins:
+  - jekyll-datapage-generator
   - jekyll-feed
 
 
 collections:
   projects:
     output: true
+
+page_gen-dirs: true
+
+page_gen:
+- data: work
+  template: work
+  dir: /work/
+  name_expr: record['tag']
+  title: title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
