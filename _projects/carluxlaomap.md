@@ -4,7 +4,6 @@ permalink: /project/carluxlaomap/
 tag: carluxlaomap
 title: CarLuxLao Interactive Map
 type: website
-link: https://developer.groupe-psa.io
 github: https://github.com/etiennerobaglia/CarLuxLaoMap
 organisation: Caritas Luxembourg in Lao PDR
 image: carluxlaomap-project.jpg
