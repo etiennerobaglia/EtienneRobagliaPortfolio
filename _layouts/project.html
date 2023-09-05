@@ -11,8 +11,8 @@ layout: default
     </h1>
     <div class="project-subtitle">
       <div class="project-categories">
-        <span>{{page.type | capitalize}}</span>
-        <span class="dot-separator">·</span> 
+        {%- comment -%} <span>{{page.type | capitalize}}</span>
+        <span class="dot-separator">·</span>  {%- endcomment -%}
         <span>{{page.organisation}}</span>
       </div>
       <div class="project-links">
@@ -47,6 +47,7 @@ layout: default
   
   <div class="project-description">
     {{page.description | markdownify}}
+    {{page.long_description | markdownify}}
   </div>
   
 
@@ -56,7 +57,7 @@ layout: default
       {% for achievments in page.achievments %}
       <li class="achievment">
         <strong>{{achievments.title}}:</strong>
-        <span>{{achievments.description}}</span>
+        <span>{{achievments.description | markdownify}}</span>
         <div class="achievment-image-container">
           <img 
             class="achievment-image"

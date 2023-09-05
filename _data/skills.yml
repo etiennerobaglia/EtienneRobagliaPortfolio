@@ -16,8 +16,8 @@
       text: Writing science articles for general audience.
       icon: science.jpg
       # link: 
-- tag: datavisualisation
-  name: "Data Visualisation"
+- tag: datavisualization
+  name: "Data Visualization"
   categories:
     - tag: leaflet
       name: Leaflet
@@ -75,7 +75,7 @@
     - tag: googleapi
       name: Google API
       text: Using Google API to access google services from 3rd party software.
-      icon: googlecloudplateform.jpg
+      icon: googlecloudplatform.jpg
       link: https://developers.google.com/apis-explorer
     - tag: github
       name: github

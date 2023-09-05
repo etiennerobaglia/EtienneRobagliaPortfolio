@@ -4,7 +4,10 @@ permalink: /
 title: default
 ---
 
-<div class="website-description">Hello, my name is Etienne Robaglia, I'm working as a technical & scientific writer, designer and developer, <a href="{{site.baseurl}}/assets/etienne-robaglia-resume.pdf">here is my resume</a>. Feel free to write me an email at <a href="mailto:etienne@robaglia.fr">etienne@robaglia.fr</a>.</div>
+<div class="website-description">
+  <p>Hi, I'm Etienne Robaglia, I'm managing and creating projects around mapping and documentation. <br> My skills include project management, technical writing, data visualization, mapping, design and web development.</p>
+  <p> Please <a href="mailto:e.robaglia@gmail.fr">send me an email</a> and check out <a href="{{site.baseurl}}/assets/etienne-robaglia-resume.pdf">my resume</a>. </p>
+</div>
 
 
 <main class="projects">
@@ -19,8 +22,8 @@ title: default
             {{project.title}}
           </h3>
           <div class="project-subtitle">
-            {{project.type | capitalize}} 
-            <span class="dot-separator">·</span> 
+            {%- comment -%} {{project.type | capitalize}} 
+            <span class="dot-separator">·</span>  {%- endcomment -%}
             {{project.organisation}}
           </div>
         </header>
