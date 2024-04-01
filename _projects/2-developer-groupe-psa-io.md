@@ -9,18 +9,18 @@ github: https://github.com/GroupePSA/groupepsa.github.io
 organisation: Stellantis (ex Groupe PSA)
 image: pg4d.jpg
 video: pg4d.m4v
-description: Project owner of documentation website (writing, design and development of tutorials & references).
+description: Stellantis developer portal documentation website (writing, design and development of tutorials & references).
 long_description: |-  
-  Long-term consultancy for Stellantis developer portal including project management, technical writing, developement and designing. This website is the documentation platform for Groupe PSA connected cars APIs.
+  Long-term consultancy for Stellantis developer portal including technical writing, developement, design and project management. This website is the documentation platform for Stellantis (ex Froupe PSA) connected cars APIs.
 achievments:
-  - tag: projectowner
-    title: Project Owner
-    description: Day-to-day follow-up of the different team needs, designing the product and prioritizing new features and management of the JIRA tickets.
-    image: web-page-pg4d.jpg
   - tag: writing
     title: Technical Writing
     description: Writing tutorials & references to document APIs and SDKs.
     image: tutorial-pg4d.jpg
+  - tag: projectowner
+    title: Project Owner
+    description: Day-to-day follow-up of the different team needs, designing the product and prioritizing new features and management of the JIRA tickets.
+    image: web-page-pg4d.jpg
   - tag: webdevelopment-webdesign
     title: Web Development & Design
     description: Web integration and development of the documentation system. Designing user-friendly layout, schema & systems for this website.
