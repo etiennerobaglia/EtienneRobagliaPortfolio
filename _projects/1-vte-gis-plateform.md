@@ -6,7 +6,7 @@ title: Vientiane Urbanism Platform
 organisation: JICA & Lao Ministry of Public Works and Transport
 type: website
 # github: 
-link: https://gispf-web.mpwt.link/
+link: https://virgo.mpwt.gov.la/#/
 image: vte-gis-platform-1.jpg
 video: vte-gis-platform.m4v
 description: |-
