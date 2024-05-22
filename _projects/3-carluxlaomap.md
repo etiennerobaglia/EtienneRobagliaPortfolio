@@ -18,7 +18,7 @@ long_description: |-
   The consultancy includes trainings, training manuals, static maps and documentation manual.
 achievments:
   - tag: gis
-    title: Gis Mapping
+    title: GIS
     description: Collecting Caritas internal data and public data using QGIS & Open Street Map.
     image: carluxlaomap-3.jpg
   - tag: webdevelopment

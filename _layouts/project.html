@@ -20,10 +20,10 @@ layout: default
         <a href="{{page.link}}">{{page.link}}</a>
         {% endif %}
         {% if page.github and page.link %}
-        <span class="dot-separator">·</span>
+        <br>
         {% endif %}
         {% if page.github %}
-        <a href="{{page.github}}">GitHub</a>
+        <a href="{{page.github}}">GitHub Repository</a>
         {% endif %}
       </div>
     </div>
@@ -50,7 +50,7 @@ layout: default
     {{page.long_description | markdownify}}
   </div>
   
-
+  {% if page.achievments %}
   <div class="achievments boxed ">
     <h2 class="boxed-title">Achievements</h2>
     <ul>  
@@ -68,6 +68,7 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+  {% endif %}
 
   {%- comment -%} <div class="project-skills boxed ">
     <h2 class="boxed-title">Skills</h2>
