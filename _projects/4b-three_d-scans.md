@@ -2,7 +2,7 @@
 tag: three_d-scans
 layout: project
 permalink: /project/three_d-scans/
-title: 3D scanning & Photogrammetry
+title: 3D Scanning & Photogrammetry
 type: website
 link: https://poly.cam/album/10907901-504e-494f-b813-fba4b65cc3a9
 organisation: Personal project
