@@ -2,20 +2,23 @@
 layout: project
 permalink: /project/carluxlaomap/
 tag: carluxlaomap
-title: Web Map Dashboard
+title: Custom Web Map Dashboard
 type: website
 github: https://github.com/etiennerobaglia/CarLuxLaoMap
+link: https://carluxlaomap.netlify.app
 organisation: Caritas Luxembourg in Lao PDR
 image: carluxlaomap-project.jpg
 video: carluxlaomap.m4v
 description: |-
-  Building an interactive web map dashboard for an NGO development program.
+  Development of a Custom Map Dashboard for an NGO development program.
 long_description: |-
-  Interviews with the client and creation of a data model. 
+  Consultancy for Caritas luxembourg in Lao PDR.
 
-  Dashboard build with Vue, Leaflet and Google Spreadsheet as a back-end.
+  Design and development of a online map dashboard for monitoring & evaluation follow-up.
 
-  The consultancy includes trainings, training manuals, static maps and documentation manual.
+  Development of a custom solution based on the client needs using Google Spreadsheet API, Vue & Leaflet.
+  
+  Requirement collection, trainings, documentation, web development, customer support
 achievments:
   - tag: gis
     title: GIS
