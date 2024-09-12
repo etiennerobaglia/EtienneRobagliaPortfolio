@@ -2,14 +2,14 @@
 tag: pg4d
 layout: project
 permalink: /project/developer-groupe-psa-io/
-title: Technical Support Engineer
+title: Educational Engineer & Developer
 type: website
 link: https://developer.groupe-psa.io
 github: https://github.com/GroupePSA/groupepsa.github.io
 organisation: Stellantis (ex Groupe PSA)
 image: pg4d.jpg
 video: pg4d.m4v
-description: "Technical support engineer for Stellantis Developer Portal: managment, development, design, writing and support."
+description: "Educational Engineer for Stellantis Developer Portal: managment, development, design, writing and support."
 long_description: |-  
   Creation and management of Stellantis connected vehicle developer API portal
 
